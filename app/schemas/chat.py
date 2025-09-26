@@ -4,4 +4,5 @@ class ChatRequest(BaseModel):
     query: str
 
 class ChatResponse(BaseModel):
-    response: str
+    reply: str
+           

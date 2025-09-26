@@ -156,7 +156,6 @@ curl -X POST "http://127.0.0.1:8000/chat/" \
 ```dart
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-
 void fetchChatbotResponse(String query) async {
     final url = Uri.parse("http://127.0.0.1:8000/chat/");
     final headers = {"Content-Type": "application/json"};

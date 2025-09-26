@@ -1,85 +1,12 @@
 # Backend for farmer chatbot
 
 
-
-### Prerequisites
-
 ### ⚙️ Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-project-name.git](https://github.com/your-username/your-project-name.git)
-    cd your-project-name
-    ```
-
-2.  **Create and activate a virtual environment** (highly recommended):
-    ```bash
-    # For Linux/macOS
-    python3 -m venv venv
-    source venv/bin/activate
-
-    # For Windows
-    python -m venv venv
-    .\venv\Scripts\activate
-    ```
-
-3.  **Install the required dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-### ▶️ Running the Application
-
-This project uses **Uvicorn** as the ASGI server.
-
-1.  **Start the server with auto-reload:**
-    ```bash
-    uvicorn app.main:app --reload
-    ```
-    *Note: Adjust `app.main:app` if your main application file and instance are located elsewhere (e.g., `main:app` if your app is in `main.py`).*
-
-2.  The application will be accessible at:
-    **http://127.0.0.1:8000**
-
----
-
-## 📚 API Documentation
-
-FastAPI automatically generates interactive documentation for all your endpoints:
-
-* **Swagger UI:** Access the interactive documentation at **http://127.0.0.1:8000/docs**
-* **ReDoc:** Access the alternative documentation at **http://127.0.0.1:8000/redoc**
-
----
-
-## 📁 Project Structure
-
-A typical, structured FastAPI layout:
-
-Here is the full Markdown code for a FastAPI project README.md template. You can copy and paste this directly into your file.
-
-Markdown
-
-# [Project Title]
-
-A concise, one-or-two-sentence description of what this FastAPI project does.
-
----
-
-## 🚀 Getting Started
-
-These instructions will help you set up and run a copy of the project on your local machine for development and testing.
-
-### Prerequisites
-
-You'll need **Python 3.8+** installed on your system.
-
-### ⚙️ Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/your-project-name.git](https://github.com/your-username/your-project-name.git)
-    cd your-project-name
+    git clone https://github.com/yashKathoke/SIH-Farmer-backend.git
+    cd SIH-Farmer-backend
     ```
 
 2.  **Create and activate a virtual environment** (highly recommended):
@@ -179,4 +106,5 @@ void fetchChatbotResponse(String query) async {
 ### Notes
 - Ensure the FastAPI server is running before making requests.
 - Handle exceptions gracefully in your mobile app to account for potential server errors.
+
 - Refer to the API documentation at **http://127.0.0.1:8000/docs** for more details.
